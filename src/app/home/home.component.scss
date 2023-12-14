@@ -51,3 +51,10 @@ button.bg-dark:focus {
 .position-relative {
   position: relative !important;
 }
+.qr-container{
+  display: flex;
+  justify-content: center;
+  .qr-img{
+    max-width: 50% !important;
+  }
+}

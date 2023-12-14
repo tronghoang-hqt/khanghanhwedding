@@ -5,12 +5,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { InvatationComponent } from './invatation/invatation.component';
+import { InvatationGroomComponent } from './invatation-groom/invatation-groom.component';
+import { InvatationBrideComponent } from './invatation-bride/invatation-bride.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    InvatationComponent
+    InvatationComponent,
+    InvatationGroomComponent,
+    InvatationBrideComponent
   ],
   imports: [
     BrowserModule,

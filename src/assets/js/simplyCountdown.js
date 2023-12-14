@@ -283,3 +283,13 @@ if (window.jQuery) {
         };
     }(jQuery, simplyCountdown));
 }
+
+$(document).ready(function() {
+    var d = new Date('2023-12-24T12:00:00');
+    $(".simply-countdown-one").simplyCountdown({
+        year: d.getFullYear(),
+        month: d.getMonth() + 1,
+        day: d.getDate(),
+        enableUtc: false,
+    });
+})
